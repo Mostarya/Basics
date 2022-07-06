@@ -1,0 +1,36 @@
+body {
+       color: red;
+       background-color: #FAE8F2;
+      font-size: 20px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       }
+a {color: red}
+
+#NavBar li {
+       display: inline;
+       float: left;
+       border-right: 1px solid rgb(240, 236, 237);
+       
+}
+
+#NavBar li:last-child {
+       border-right: none;
+     }
+
+#NavBar .active {
+       background-color: rgb(196, 185, 226);
+}
+
+#NavBar a {
+       display: block;
+       padding: 8px;
+       background-color: #f1cde1;
+}
+
+h1 {
+       text-align: center;
+}
+
+h2 {
+       text-align: center;
+}

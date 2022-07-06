@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="CSS/mystyle.css">
+    <link rel="stylesheet" href="css/survey.css"/>
+</head>
+<body>
+    <section id="NavBar">
+        <ul>
+            <li><a href="profile.html">Home</a></li>
+            <li><a href="dom-patterns.html">DOM Pattern Project</a></li>
+            <li><a href="color-guessing-game.html">Color Guessing Game</a></li>
+            <li><a href="dice-game.html">Dice Game</a></li>
+            <li><a href="datingform.html">Dating Form Project</a></li>
+            <li><a class='active' href="surveyform.html">Survey Form Project</a></li>
+        </ul>
+    </section>
+    <br>
+    <h1>Survey</h1>
+    <form class="survey-form" action="https://us-central1-nucamp-production.cloudfunctions.net/post/formdata" method="post">
+        <fieldset>
+            <legend>Your Information</legend>
+            <div>
+                <label for="firstName">First Name:</label> 
+                <input type="text" id="firstName" name="firstName" placeholder="Your First Name" />
+            </div>
+            <div>
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Your Last Name" />
+            </div>
+            <div>
+                <label for="yourEmail">Your Email: </label>
+                <input type="email" id="yourEmail" name="email" placeholder="Your Email Address" />
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Survey Questions</legend>
+            <div>
+                Favorite Sport:
+                <input type="radio" name="sport" value="baseball" /> Baseball
+                <input type="radio" name="sport" value="rugby" /> Rugby
+                <input type="radio" name="sport" value="snowboarding" /> Snowboarding
+            </div>
+            <div>
+                Your Pets:
+                <input type="checkbox" name="pets" value="cat" /> Cat
+                <input type="checkbox" name="pets" value="dog" /> Dog
+                <input type="checkbox" name="pets" value="iguana" /> Iguana
+            </div>
+        </fieldset>
+        <div>
+            <input type="submit" id="submit-btn"/>
+        </div>
+    </form>
+</body>
+</html>

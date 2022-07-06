@@ -1,0 +1,24 @@
+Challenge Questions: More Attributes
+
+1. What attribute and value can you use to cause an <a> element to open the link in a new browser tab?
+<head>
+<base target="_blank">
+</head>
+
+2. How can you use the lang attribute if you have a webpage that uses more than one language? For example, let's say it has one <section> element where the contents are in French, and another <section> element where the contents are in Japanese. What can you do in this case?
+At the opening tag of the attribute, enter the lang="_" where the blank is the languages code.
+<section lang="fr"> text </section >
+<section lang="ja"> text </section >
+
+3. One of the possible values for the name attribute of the meta element is description. How is a meta element with this attribute value used?
+The description value gives the definition of your web page and often shows up on search results. It's ideal to keep the character length around 150 or less.
+
+
+
+
+Challenge Questions: More Attributes - Skylar
+<base target="_blank"> in the <head> section. Attribute is target, value is "_blank"
+At the opening tag of the attribute, enter the lang="_" where the blank is the sections language code. <p lang="fr"> text </p>
+The description value gives the definition of your web page and often shows up on search results. It's ideal to keep the character length around 150 or less.
+
+

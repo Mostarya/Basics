@@ -1,0 +1,42 @@
+body {
+    background:#b4eeca;
+    font-family: Tahoma, Arial, sans-serif;
+    text-align: center
+}
+
+h1 {
+    color: blueviolet;
+    font: 50px Garamond, Helvetica, serif;
+}
+
+table {
+    width: 50%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    border-spacing: 20px 1rem;
+    border:blueviolet solid 3px
+}
+
+section {
+    margin: 100px 20px 50px/solid 10px;
+    padding:20px
+}
+
+thead {
+    text-align: left;
+    color: rgb(139, 40, 185);
+    background-color: azure;
+}
+
+label {
+    display: block;
+}
+
+#submit-btn {
+    display: block;
+    color: azure;
+    background-color: blueviolet;
+    margin: auto
+}
